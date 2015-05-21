@@ -6,6 +6,10 @@
   padding-top: 0px;
 }
 
+.header h1{
+  margin-top: 20px;
+}
+
 body, html{
   background-color: #FFFFFF;
 }
@@ -23,4 +27,25 @@ body, html{
 
 .center{
   text-align: center;
+}
+
+.rounded{
+  border-radius: 25px;
+  border: 2px solid;
+}
+
+.rounded-corner{
+  border-top-left-radius:10px;
+  border-top-right-radius:75px;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:75px;
+  border: 2px solid;
+}
+
+.margin10{
+  margin: 10px;
+}
+
+.size30{
+  font-size: 50px;
 }
