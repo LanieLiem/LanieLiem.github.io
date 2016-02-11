@@ -1,11 +1,32 @@
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Audiowide', cursive;*/
+
+/*
+font-family: 'Inconsolata', ;
+font-family: 'Domine', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Source Serif Pro', serif;
+*/
+
+
+body, html{
+  background-color: #303030;
+  color: #C1C1C1;
+}
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
+}
+
+/*Bootstrap Overrides*/
+.row{
+  margin-bottom: 30px !important;
+}
+
+.btn-default{
+  background-color: #9CE6FF !important;
+  background-image: linear-gradient(to bottom,#9CE6FF 0,#9CE6FF 100%) !important;
+  border-color: #9CE6FF !important;
+  text-shadow: none !important;
 }
 
 p{
@@ -17,6 +38,35 @@ h2{
   font-weight: 600;
 }
 
+.blog {
+  font-family: 'Domine', serif;
+  background-color: #FFFFFF;
+  padding: 50px;
+  border-radius: 55px;
+  color: #303030;
+}
+
+.portfolio {
+  font-family: 'Domine', serif;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 25px;
+  color: #303030;
+  min-height: 300px;
+}
+
+.index-btn{
+  color: #303030;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.margin-top-bottom {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
 .header{
   background-color: purple;
   color: white;
@@ -26,11 +76,11 @@ h2{
 }
 
 .header h1{
-  margin-top: 20px;
-}
-
-body, html{
-  background-color: #FFFFFF;
+  margin-top: 10px;
+  letter-spacing: 9px;
+  font-size: 60px;
+  color: #FAFAFA;
+  line-height: 100px;
 }
 
 .left{
@@ -50,7 +100,11 @@ body, html{
 
 .rounded{
   border-radius: 25px;
-  border: 2px solid;
+  border: 2px solid #282828;
+}
+
+.no-border{
+  border: none !important;
 }
 
 .rounded-corner{
